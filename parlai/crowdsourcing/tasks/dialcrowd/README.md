@@ -171,3 +171,59 @@ Information about the tasks can be found in the table `assignments`. It includes
 
 Jessica Huynh, Ting-Rui Chiang, Kyusong Lee
 Carnegie Mellon University 2022
+
+Please cite if you use our work: 
+```
+@inproceedings{huynh-etal-2022-dialcrowd,
+    title = "{D}ial{C}rowd 2.0: A Quality-Focused Dialog System Crowdsourcing Toolkit",
+    author = "Huynh, Jessica  and
+      Chiang, Ting-Rui  and
+      Bigham, Jeffrey  and
+      Eskenazi, Maxine",
+    editor = "Calzolari, Nicoletta  and
+      B{\'e}chet, Fr{\'e}d{\'e}ric  and
+      Blache, Philippe  and
+      Choukri, Khalid  and
+      Cieri, Christopher  and
+      Declerck, Thierry  and
+      Goggi, Sara  and
+      Isahara, Hitoshi  and
+      Maegaard, Bente  and
+      Mariani, Joseph  and
+      Mazo, H{\'e}l{\`e}ne  and
+      Odijk, Jan  and
+      Piperidis, Stelios",
+    booktitle = "Proceedings of the Thirteenth Language Resources and Evaluation Conference",
+    month = jun,
+    year = "2022",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2022.lrec-1.134",
+    pages = "1256--1263",
+    abstract = "Dialog system developers need high-quality data to train, fine-tune and assess their systems. They often use crowdsourcing for this since it provides large quantities of data from many workers. However, the data may not be of sufficiently good quality. This can be due to the way that the requester presents a task and how they interact with the workers. This paper introduces DialCrowd 2.0 to help requesters obtain higher quality data by, for example, presenting tasks more clearly and facilitating effective communication with workers. DialCrowd 2.0 guides developers in creating improved Human Intelligence Tasks (HITs) and is directly applicable to the workflows used currently by developers and researchers.",
+}
+
+@inproceedings{lee-etal-2018-dialcrowd,
+    title = "{D}ial{C}rowd: A toolkit for easy dialog system assessment",
+    author = "Lee, Kyusong  and
+      Zhao, Tiancheng  and
+      Black, Alan W.  and
+      Eskenazi, Maxine",
+    editor = "Komatani, Kazunori  and
+      Litman, Diane  and
+      Yu, Kai  and
+      Papangelis, Alex  and
+      Cavedon, Lawrence  and
+      Nakano, Mikio",
+    booktitle = "Proceedings of the 19th Annual {SIG}dial Meeting on Discourse and Dialogue",
+    month = jul,
+    year = "2018",
+    address = "Melbourne, Australia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W18-5028",
+    doi = "10.18653/v1/W18-5028",
+    pages = "245--248",
+    abstract = "When creating a dialog system, developers need to test each version to ensure that it is performing correctly. Recently the trend has been to test on large datasets or to ask many users to try out a system. Crowdsourcing has solved the issue of finding users, but it presents new challenges such as how to use a crowdsourcing platform and what type of test is appropriate. DialCrowd has been designed to make system assessment easier and to ensure the quality of the result. This paper describes DialCrowd, what specific needs it fulfills and how it works. It then relates a test of DialCrowd by a group of dialog system developer.",
+}
+```
+
